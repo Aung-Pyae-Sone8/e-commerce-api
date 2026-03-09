@@ -4,12 +4,13 @@ import {
   varchar,
   text,
   double,
+  int,
 } from "drizzle-orm/mysql-core";
 
-export const usersTable = mysqlTable("products", {
+export const productsTable = mysqlTable("products", {
   id: serial().primaryKey(),
   name: varchar({ length: 255 }).notNull(),
-  descriptoin: text(),
+  description: text(),
   image: varchar({ length: 255 }),
   price: double().notNull(),
 });
