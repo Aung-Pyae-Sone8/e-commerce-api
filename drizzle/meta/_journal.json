@@ -8,6 +8,13 @@
       "when": 1773046879690,
       "tag": "0000_needy_lady_deathstrike",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1773119597736,
+      "tag": "0001_bright_havok",
+      "breakpoints": true
     }
   ]
 }

@@ -1,4 +1,4 @@
-CREATE TABLE `products` (
+CREATE TABLE IF NOT EXISTS `products` (
 	`id` serial AUTO_INCREMENT NOT NULL,
 	`name` varchar(255) NOT NULL,
 	`description` text,
