@@ -1,4 +1,4 @@
-import { productsTable } from '../db/productsSchema';
+import { productsTable } from '../db/productsSchema.js';
 import { createInsertSchema } from 'drizzle-zod';
 import {z} from 'zod';
 

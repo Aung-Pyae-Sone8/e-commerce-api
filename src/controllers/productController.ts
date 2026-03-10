@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import { db } from "../db/index";
-import { productsTable } from "../db/productsSchema";
+import { db } from "../db/index.js";
+import { productsTable } from "../db/productsSchema.js";
 import { eq } from "drizzle-orm";
-import { createProductInsertSchema } from "../validations/productValidations";
+import { createProductInsertSchema } from "../validations/productValidations.js";
 import _ from 'lodash'
 
 export const listProducts = async (req: Request, res: Response) => {

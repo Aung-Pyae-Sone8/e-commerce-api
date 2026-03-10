@@ -1,5 +1,5 @@
 import { createInsertSchema } from "drizzle-zod"
-import { usersTable } from "../db/usersSchema"
+import { usersTable } from "../db/usersSchema.js"
 
 export const createUserSchema = createInsertSchema(usersTable).omit({
     id: true,
